@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+h2,h3{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+}
+
+p,a{ font-family: 'Poppins', sans-serif;
+font-weight: 400;
+}
+
+.portada{
+    width: 100%;
+        }
+
+.mi_foto{
+    text-align: center;
+    
+}
+
+.mifoto{
+   border-radius: 50%;
+   width: 300px;
+   
+
+}
+
+.tarjeta{
+    margin-left: 510px;
+    padding-top: 250px; 
+    
+ }
+
+.button{
+    display: block;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.25em;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+.button span{
+    margin-right: 20px;
+    font-size: 30px;
+  
+}
+
+/* colores */
+.button.green{
+    background-color: rgb(32, 233, 10);
+}
+.button.blue{
+    background-color: rgb(45, 45, 231);
+}
+.button.red{
+    background-color:rgb(242, 45, 45);
+}
+
+.git{
+    font-size: 2.5em;
+
+}
+
+.mi_foto{
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 200px;
+
+}
+
+/* 
+----------------responsive---------------------- */
+@media  (max-width: 500px){
+    .contedor{
+        height:765px ;
+    }
+}
+
+@media  (max-width: 500px){
+    .tarjeta{
+margin-left: 40px;
+padding-top: 400px;
+}
+
+
+    }
+      
