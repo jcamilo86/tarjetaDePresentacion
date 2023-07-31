@@ -72,6 +72,10 @@ font-weight: 400;
 .button:hover{
     background: #8888ca;
 }
+.git:hover{
+    background: #8888ca;
+    border-radius: 50%;
+}
 
 .mi_foto{
     background: #ff00cc;  /* fallback for old browsers */
